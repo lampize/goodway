@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(234, 234, 234);
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position:absolute;
+}
+h1{
+    /* text-align:center; */
+    position: relative;
+    left:42.5%;
+    top:18.5%;
+    color:rgb(10, 10, 10);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form-box{
+    width: 380px;
+    height: 280px;
+    position: relative;
+    margin:10% auto;
+    background: #fff;
+    padding:5px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.input-group{
+    top:65px;
+    position:absolute;
+    width: 280px;
+    transition:.5s;
+    background-color: white;
+}
+.input-field{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    border-left: 0;
+    border-right:0;
+    border-top:0;
+    border-bottom:1px solid #999;
+    outline:none;
+    background: white;
+}
+.submit-btn{
+    width:85%;
+    padding: 10px;
+    font-size: 20px;
+    cursor:pointer;
+    display: block;
+    margin:5% 7%;
+    background: linear-gradient(to right, #888b8a, #f3f2dd);
+    border:0;
+    outline:none;
+    border-radius:15px;
+}
+#login{
+    left:50px;
+}
+/* #register{
+    left:450px;
+} */
+.message{
+    position:sticky;
+    top: 0;
+    margin: 0px auto;
+    max-width: 350px;
+    height: 25px;
+    padding:0rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    gap:1.5rem;
+    background-color: #d46a6a;
+    border-radius:5px;
+    text-align: center;
+}
+.message span{
+    font-size: 0.8rem;
+    color: rgb(246, 241, 241);
+    align-items:center;
+    text-align: center;
+    background: transparent;
+}
+.message i{
+    cursor: pointer;
+    color:rgb(244, 239, 239);
+    font-size: 1rem;
+    background: transparent;
+}
+.message i:hover{
+    transform: rotate(90deg);
+}
