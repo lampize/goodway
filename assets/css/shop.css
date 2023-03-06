@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+
+.home{
+    min-height: 50vh;
+    background:linear-gradient(rgba(175, 26, 26, 0.7), rgba(0,0,0,.7));
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .content{
+    text-align: center;
+    width: 60rem;
+ }
+ 
+ .home .content h4{
+    font-size: 5.5rem;
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Shantell Sans', cursive;
+ }
+
+.dropdown-submenu{
+   padding:15PX;
+   width:45%;
+   background-color: blueviolet;
+}

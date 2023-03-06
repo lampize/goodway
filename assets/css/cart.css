@@ -1,0 +1,135 @@
+.container-fluid{
+    padding-left: 25px;
+    margin: 5%;
+    margin-left:10%;
+}
+
+header{
+    position: fixed;
+    width:100%;
+    top:0;
+    right:0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:transparent;
+    padding: 2px 0%;
+    transition:all .50s ease;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo:hover{
+    text-decoration: none;
+}
+
+.logo i{
+    color: rgb(44, 115, 192);
+    font-size: 25px;
+    margin-right: 3px;
+}
+.logo span{
+    color: rgb(44, 115, 192);
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: "Comic sans MS";
+}
+
+.row {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.container-fluid {
+    padding-right: 25px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.shopping-cart {
+    background: #fff;
+    margin: 0 0 30px;
+    border: solid 1px #e6e6e6;
+    box-sizing: border-box;
+    padding:20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.text-muted {
+    color: #9b0a0a;
+}
+
+
+@media (min-width:768px) {
+    .form-inline .form-group {
+        display: inline-block;
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+    .form-inline .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle
+    }
+    .form-inline .form-control-static {
+        display: inline-block
+    }
+}
+
+.box-footer {
+    background: #f7f7f7;
+    margin: 30px -20px -20px;
+    padding:20px;
+    height:80px;
+    border-top: solid 1px #eeeeee;
+    
+}
+    
+.box .box-footer:before,
+.box .box-footer:after {
+    content:" ";
+    display: table;
+}
+    
+.box .box-footer:after {
+    clear:both;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.col-md-5{
+    width:600px;
+}

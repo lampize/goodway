@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration:none;
+    list-style: none;
+}
+:root{
+    background-color: white;
+}
+/* header */
+header{
+    /* position: fixed; */
+    width:100%;
+    height:60px;
+    top:10;
+    right:0;
+    z-index: 1000;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    background: navy;
+    /* padding: 20px 0%; */
+    transition:all .50s ease;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo i{
+    color: beige;
+    font-size: 20px;
+    margin-right: 3px;
+    text-decoration: none;
+    
+}
+.logo span{
+    color: orange;
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: "Comic sans MS";
+}
+.form-inputs{
+    position:relative;
+    align-items:center !important;
+    display:flex !important;
+    padding-left: 190px;
+}
+.form-inputs .form-control{
+    height:45px;
+    width: 500px; 
+    text-align: center;
+    align-items: center;
+    font-size:large;
+    /* box-shadow: 0px -5px 10px 0px rgba(77, 154, 218, 0.5); */
+    border-radius:30px;
+}
+
+.main{
+    display: flex;
+
+}
+.main a{
+    margin-right: 25px;
+    margin-left: 20px;
+    color:rgb(157, 174, 175);
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+.main a:hover{
+    color:rgb(149, 245, 252);
+}
+/* navbar */
+#header{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 0px 10px;
+    background:rgb(15, 15, 30);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    /* padding-top:5px; */
+}
+#navbar{
+    display:flex;
+    align-items:center;
+    /* margin-top:20px; */
+    /* justify-content: center; */
+    text-align: center;
+
+}
+#navbar li{
+    list-style: none;
+    padding:0 20px;
+    /* position: relative; */
+}
+#navbar li a{
+    color:#fff;
+    text-decoration:none;
+    display: inline-block;
+    padding: 1.0rem;
+    font-size: 1.2rem;
+    transition: 0.3s ease;
+}
+
+#navbar li a .menu-text{
+    position:relative;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgb(255, 228, 107);
+    /* border-radius:25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px; */
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content:"";
+    width:30%;
+    height:2px;
+    background:rgb(255, 228, 107);
+    position:absolute;
+    bottom: -4px;
+    left:20px;
+}
+.left{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size:0.7rem;
+}
+
